@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Establece la fuente del documento */
+    margin: 0;
+    /* Elimina el margen por defecto */
+    padding: 20px;
+    /* Añade un poco de espacio alrededor del contenido */
+    background-color: #f4f4f4;
+    /* Color de fondo suave */
+}
+
+.notas {
+    max-width: 600px;
+    /* Limita el ancho de la sección de notas */
+    margin: auto;
+    /* Centra la sección en la página */
+    padding: 20px;
+    /* Espaciado interno */
+    background-color: #ffffff;
+    /* Fondo blanco para las notas */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+}
+
+h4 {
+    text-align: center;
+    /* Centra el título */
+    color: #333;
+    /* Color del texto del título */
+}
+
+ul {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el padding por defecto */
+}
+
+li {
+    padding: 10px;
+    /* Espaciado interno para cada nota */
+    margin: 5px 0;
+    /* Margen entre los elementos de la lista */
+    background-color: #e0f7fa;
+    /* Color de fondo de cada nota */
+    border-left: 5px solid #00796b;
+    /* Borde a la izquierda */
+    border-radius: 4px;
+    /* Bordes redondeados para las notas */
+    transition: background-color 0.3s;
+    /* Transición suave para el fondo */
+}
+
+li:hover {
+    background-color: #b2ebf2;
+    /* Color de fondo al pasar el ratón */
+}
+
+p {
+    font-size: 1.2em;
+    /* Tamaño de fuente para párrafos */
+    color: #555;
+    /* Color del texto de los párrafos */
+}
+
+button {
+    display: block;
+    /* Hace que cada botón ocupe todo el ancho */
+    width: 100%;
+    /* Botón ocupa todo el ancho */
+    padding: 10px;
+    /* Espaciado interno para los botones */
+    margin: 10px 0;
+    /* Espacio entre los botones */
+    background-color: #00796b;
+    /* Color de fondo de los botones */
+    color: white;
+    /* Color del texto de los botones */
+    border: none;
+    /* Elimina el borde por defecto */
+    border-radius: 4px;
+    /* Bordes redondeados para los botones */
+    cursor: pointer;
+    /* Cambia el cursor al pasar el ratón */
+    font-size: 1em;
+    /* Tamaño de fuente para los botones */
+    transition: background-color 0.3s;
+    /* Transición suave para el fondo */
+}
+
+button:hover {
+    background-color: #004d40;
+    /* Color de fondo al pasar el ratón */
+}

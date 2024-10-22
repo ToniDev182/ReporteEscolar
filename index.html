@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas escolares</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="notas">
+        <h4>Notas</h4>
+        <ul id="contenido-notas">
+            <!-- Las notas de añaden aqui de forma dinamica -->
+        </ul>
+
+        <p>Promedio: </p>
+        <p id="promedio"></p>
+
+        <button onclick="calcularPromedio('contenido-notas')">Calcular promedio</button>
+
+        <p>Nota mas alta: </p>
+        <p id="notaAlta"></p>
+
+        <button onclick="noMasAlta('contenido-notas')">Buscar nota mas alta</button>
+
+        <p>¿hubo algun suspenso?</p>
+        <p id="suspenso"></p>
+
+        <button onclick="consultarSuspenso('contenido-notas')">Consultar suspenso</button>
+
+    </div>
+
+</body>
+<script src="Js/Js.js"></script>
+
+</html>
+
+<!-- pistas para usar en el html -->
+<!-- array []
+ for of
+ lista = docum.get(ul)
+ item = lista.createelemet(li)
+ lista . appendchild(item) -->
